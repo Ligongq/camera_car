@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <DebugChecksum>
+        <Checksum>354404480</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <JLinkDriver>
+        <TraceBufferSize>0x00010000</TraceBufferSize>
+        <TraceStallIfFIFOFull>0x00000000</TraceStallIfFIFOFull>
+        <TracePortSize>0x00000004</TracePortSize>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <Disassemble_mode>
+        <mode>0</mode>
+    </Disassemble_mode>
+    <PlDriver>
+        <MemConfigValue>F:\iar8.22\arm\CONFIG\debugger\NXP\MK66FX1M0xxx18.ddf</MemConfigValue>
+    </PlDriver>
+    <Jet>
+        <JetConnSerialNo>170011729</JetConnSerialNo>
+        <JetConnFoundProbes />
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+    </ArmDriver>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>72000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>36</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <array_types>
+        <Fmt0>uint8[127]	2	0</Fmt0>
+        <Fmt1>uint8[188]	3	0</Fmt1>
+        <Fmt2>uint8[4]	3	0</Fmt2>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}42:(unsigned int)jkjk	4	0</Fmt0>
+        <Fmt1>{W}42:aa	3	0</Fmt1>
+        <Fmt2>{W}42:asdas	4	0</Fmt2>
+        <Fmt3>{W}42:asdasd	3	0</Fmt3>
+        <Fmt4>{W}42:bb	3	0</Fmt4>
+        <Fmt5>{W}42:dada	3	0</Fmt5>
+        <Fmt6>{W}42:dal	1	0</Fmt6>
+        <Fmt7>{W}42:dd	3	0</Fmt7>
+        <Fmt8>{W}42:ddd	3	0</Fmt8>
+        <Fmt9>{W}42:dydy	4	0</Fmt9>
+        <Fmt10>{W}42:haha	3	0</Fmt10>
+        <Fmt11>{W}42:jkjk	4	0</Fmt11>
+        <Fmt12>{W}42:safjk	4	0</Fmt12>
+        <Fmt13>{W}42:t1	4	0</Fmt13>
+        <Fmt14>{W}42:t2	4	0</Fmt14>
+        <Fmt15>{W}42:t3	4	0</Fmt15>
+        <Fmt16>{W}42:t4	4	0</Fmt16>
+        <Fmt17>{W}42:t5	4	0</Fmt17>
+        <Fmt18>{W}42:test	3	0</Fmt18>
+        <Fmt19>{W}42:wx	4	0</Fmt19>
+        <Fmt20>{W}42:x	4	0</Fmt20>
+        <Fmt21>{W}42:xixi	3	0</Fmt21>
+        <Fmt22>{W}42:yy	3	0</Fmt22>
+    </watch_formats>
+    <StLinkDriver>
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>1</stlinkResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <PowerLog>
+        <Title_0>I0</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>I0</Probe0>
+        <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
+    </PowerProbe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\Administrator\Desktop\TSZ程序V1.1\Libraries\smartcar\gpio.c" ""</A0>
+        <A1>_ "C:\Users\Administrator\Desktop\TSZ程序V1.2\Libraries\drives\src\MK60_pit.c" ""</A1>
+        <A2>_ "C:\Users\Administrator\Desktop\TSZ程序V1.2\Libraries\drives\src\common.c" ""</A2>
+        <A3>_ "C:\Users\Administrator\Desktop\TSZ程序V1.2\Libraries\smartcar\gpio.c" ""</A3>
+        <A4>_ "C:\Users\Administrator\Desktop\TSZ程序V1.3\Libraries\smartcar\gpio.c" ""</A4>
+        <A5>_ "C:\Users\Administrator\Desktop\TSZ程序V1.4\Libraries\smartcar\oled.c" ""</A5>
+        <A6>_ "C:\Users\Administrator\Desktop\TSZ程序V1.5\Libraries\smartcar\oled.c" ""</A6>
+        <A7>_ "C:\Users\Administrator\Desktop\TSZ程序V1.6\Libraries\smartcar\oled.c" ""</A7>
+        <A8>_ "C:\Users\Administrator\Desktop\TSZ程序V1.7\Libraries\smartcar\oled.c" ""</A8>
+        <A9>_ "C:\Users\Administrator\Desktop\TSZ程序V1.8\Libraries\smartcar\oled.c" ""</A9>
+        <A10>_ "C:\Users\Administrator\Desktop\TSZ程序V10.0\Projecct\USER\src\main.c" ""</A10>
+        <A11>_ "C:\Users\Administrator\Desktop\TSZ程序V11.0\Libraries\startup\CoreSupport\core_cm4.h" ""</A11>
+        <A12>_ "C:\Users\Administrator\Desktop\TSZ程序V11.0\Projecct\USER\src\main.c" ""</A12>
+        <A13>_ "C:\Users\Administrator\Desktop\TSZ程序V2.0\Libraries\smartcar\oled.c" ""</A13>
+        <A14>_ "C:\Users\Administrator\Desktop\TSZ程序V2.2\Libraries\smartcar\oled.c" ""</A14>
+        <A15>_ "C:\Users\Administrator\Desktop\TSZ程序V2.3\Libraries\smartcar\oled.c" ""</A15>
+        <A16>_ "C:\Users\Administrator\Desktop\TSZ程序V3.2\Libraries\smartcar\gpio.c" ""</A16>
+        <A17>_ "C:\Users\Administrator\Desktop\TSZ程序V3.4\Libraries\drives\src\MK60_pit.c" ""</A17>
+        <A18>_ "C:\Users\Administrator\Desktop\TSZ程序V3.4\Libraries\smartcar\gpio.c" ""</A18>
+        <A19>_ "C:\Users\Administrator\Desktop\TSZ程序V3.6 - 副本\Libraries\drives\src\MK60_pit.c" ""</A19>
+        <A20>_ "C:\Users\Administrator\Desktop\TSZ程序V4.2\Libraries\smartcar\gpio.c" ""</A20>
+        <A21>_ "C:\Users\Administrator\Desktop\TSZ程序V4.3 - 副本\Projecct\USER\src\main.c" ""</A21>
+        <A22>_ "C:\Users\Administrator\Desktop\TSZ程序V4.3\Libraries\drives\src\MK60_pit.c" ""</A22>
+        <A23>_ "C:\Users\Administrator\Desktop\TSZ程序V4.3\Libraries\drives\src\common.c" ""</A23>
+        <A24>_ "C:\Users\Administrator\Desktop\TSZ程序V511 - 副本\Projecct\USER\src\main.c" ""</A24>
+        <A25>_ "C:\Users\Administrator\Desktop\TSZ程序V512 - 副本\Libraries\smartcar\image_cutroute.c" ""</A25>
+        <A26>_ "C:\Users\Administrator\Desktop\TSZ程序V512 - 副本\Projecct\USER\src\main.c" ""</A26>
+        <A27>_ "C:\Users\Administrator\Desktop\TSZ程序V513 - 副本\Libraries\smartcar\image_cutroute.c" ""</A27>
+        <A28>_ "C:\Users\Administrator\Desktop\TSZ程序V513 - 副本\Libraries\smartcar\motor_pid.c" ""</A28>
+        <A29>_ "C:\Users\Administrator\Desktop\TSZ程序V515\Libraries\drives\src\common.c" ""</A29>
+        <A30>_ "C:\Users\Administrator\Desktop\TSZ程序V515\Libraries\startup\CoreSupport\core_cm4.h" ""</A30>
+        <A31>_ "C:\Users\Administrator\Desktop\TSZ程序V517 - 副本\Libraries\startup\CoreSupport\core_cm4.h" ""</A31>
+        <A32>_ "C:\Users\Administrator\Desktop\TSZ程序V518\Libraries\smartcar\image_cutroute.c" ""</A32>
+        <A33>_ "C:\Users\Administrator\Desktop\TSZ程序V518\Libraries\smartcar\image_obstruct.c" ""</A33>
+        <A34>_ "C:\Users\Administrator\Desktop\TSZ程序V519\Projecct\USER\src\main.c" ""</A34>
+        <A35>_ "C:\Users\Administrator\Desktop\TSZ程序V521\Projecct\USER\src\main.c" ""</A35>
+        <A36>_ "C:\Users\Administrator\Desktop\TSZ程序V523\Libraries\smartcar\get_image.c" ""</A36>
+        <A37>_ "C:\Users\Administrator\Desktop\TSZ程序V525\Libraries\drives\src\common.c" ""</A37>
+        <A38>_ "C:\Users\Administrator\Desktop\TSZ程序V525\Projecct\USER\src\main.c" ""</A38>
+        <A39>_ "C:\Users\Administrator\Desktop\TSZ程序V529\Libraries\smartcar\get_image.c" ""</A39>
+        <A40>_ "C:\Users\Administrator\Desktop\TSZ程序V529\Projecct\USER\src\main.c" ""</A40>
+        <A41>_ "C:\Users\Administrator\Desktop\TSZ程序V531\Libraries\smartcar\get_image.c" ""</A41>
+        <A42>_ "C:\Users\Administrator\Desktop\TSZ程序V531\Projecct\USER\src\main.c" ""</A42>
+        <A43>_ "C:\Users\Administrator\Desktop\TSZ程序V6.0\Libraries\smartcar\gpio.c" ""</A43>
+        <A44>_ "C:\Users\Administrator\Desktop\TSZ程序V7.0\Libraries\smartcar\gpio.c" ""</A44>
+        <A45>_ "C:\Users\Administrator\Desktop\TSZ程序V8.0\Libraries\smartcar\gpio.c" ""</A45>
+        <A46>_ "C:\Users\Administrator\Desktop\TSZ程序V8.1\Libraries\smartcar\gpio.c" ""</A46>
+        <A47>_ "C:\Users\Administrator\Desktop\TSZ程序新版V1.0\Libraries\startup\CoreSupport\core_cm4.h" ""</A47>
+        <A48>_ "C:\Users\Administrator\Desktop\TSZ程序新版V2.0\Projecct\USER\src\main.c" ""</A48>
+        <A49>_ "C:\Users\Administrator\Desktop\TSZ程序新版V3.0\Libraries\smartcar\gpio.c" ""</A49>
+        <A50>_ "C:\Users\Administrator\Desktop\TSZ程序新版V7.0 - 副本\Libraries\smartcar\gpio.c" ""</A50>
+        <A51>_ "C:\Users\Administrator\Desktop\TSZ程序新版V7.0 - 副本\Projecct\USER\src\main.c" ""</A51>
+        <A52>_ "C:\Users\Administrator\Desktop\普通二值化3m - 副本 - 副本\Projecct\USER\src\main.c" ""</A52>
+        <A53>_ "C:\Users\Administrator\Desktop\逐飞科技_K66库\Projecct\USER\src\main.c" ""</A53>
+        <A54>_ "E:\work\seekfree\freescale_work\单片机库开发\K66库编写\逐飞科技_K66库\Libraries\startup\DeviceSupport\IAR-ARM\startup_MK66F18.s" ""</A54>
+        <A55>_ "F:\work\seekfree\开发板\用户资料\3-开发板历程\4-应用例程\23-总钻风&amp;2.8TFT显示图像(OK)\Projecct\USER\src\isr.c" ""</A55>
+        <A56>_ "F:\work\seekfree\开发板\用户资料\3-开发板历程\4-应用例程\23-总钻风&amp;2.8TFT显示图像(OK)\Projecct\USER\src\main.c" ""</A56>
+        <A57>_ "G:\Users\总钻风&amp;2.8TFT显示图像\Libraries\drives\inc\MK60DN10_dma.h" ""</A57>
+        <Count>58</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+</settings>
